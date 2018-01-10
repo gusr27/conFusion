@@ -1,23 +1,16 @@
 {
-  "dependencies": {
-    "bootstrap": "4.0.0-beta.3"
-  },
   "name": "confusion",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "This is a website for Ristorante Con Fusion",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gusr27/conFusion.git"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "Gus Richardson",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gusr27/conFusion/issues"
-  },
-  "homepage": "https://github.com/gusr27/conFusion#readme",
-  "description": ""
+    "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
 }
