@@ -28,6 +28,14 @@ address{
     margin: 0px;
     color: #0f0f0f;
 }
-nav a{
+
+
+body{
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background-color: #512DA8;
     color: floralwhite;
 }
